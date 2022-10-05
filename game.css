@@ -5,12 +5,14 @@
   font-family: cursive;
   position: absolute;
 }
+#main{
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
 .button{
-  border-radius:10px;
-  top:300px;
-  left:50px;
-  width:80px;
-  height: 30px;
+  border-radius:15px;
+  padding: 15px 25px;
   color:blue;
   font-family: cursive;
   font-weight: bold;
@@ -18,15 +20,18 @@
   position: absolute;
 }
 .button:hover{
-  left:45px;
-  width:85px;
+  background-color: #3e8e41;
+}
+.button:active{
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
 .auto-player{
-  border-radius:10px;
-  top:360px;
-  left:50px;
-  width:130px;
-  height: 30px;
+  border-radius:15px;
+  top:280px;
+  left:9px;
+  padding: 15px 25px;
   color:blue;
   font-family: cursive;
   font-weight: bold;
@@ -34,8 +39,12 @@
   position: absolute;
 }
 .auto-player:hover{
-  right:45px;
-  width:135px;
+  background-color: #3e8e41;
+}
+.auto-player:active{
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
 .type1{
   border-style:none solid solid none;
