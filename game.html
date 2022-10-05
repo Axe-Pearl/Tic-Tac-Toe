@@ -4,8 +4,17 @@
     <meta charset="utf-8">
     <title>Tic Tac Toe</title>
     <link rel="stylesheet" href="game.css">
+    <style>
+      body  {
+        background-image: url("paper.gif");
+        background-color: #cccccc;
+      }
+      </style>
   </head>
   <body>
+    <div id="main">
+      <p>Game starts by just Tap on box<br><br>First Player starts as<b>Player X</b><br>And<br>Second Player as <b>Player 0</b></p>
+    </div>
     <h1 style="font-size:30px;font-family:cursive;text-align:center;">Tic Tac Toe</h1>
     <div id="winner" style="visibility:hidden;">X has won the game</div>
     <button class="button" type="button" name="button" onclick="reset()">Restart</button>
